@@ -499,7 +499,7 @@
 /*---------------------------------
       ARROW
 ------------------------*/
-@media (min-width: 992px) {
+
 
   .arrow{
     position: absolute;
@@ -507,6 +507,7 @@
     left: 10%;
     transform: translate(-50%,-50%);
   }
+  
   .arrow span{
     display: block;
     width: 17px;
@@ -516,6 +517,12 @@
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
+  }
+  @media (max-width: 768px) {
+    .arrow {
+      bottom: 10%;
+      left: 50%;
+    }
   }
   .arrow span:nth-child(2){
     animation-delay: -0.2s;
@@ -536,5 +543,5 @@
         transform: rotate(45deg) translate(20px,20px);
     }
   }
-}
+
 /*# sourceMappingURL=component.css.map */
