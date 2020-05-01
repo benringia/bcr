@@ -1,0 +1,43 @@
+
+/*
+ * CSS METHODOLOGY
+ *
+ * Organize project files that can better deal with CSS specifics like global namespace, cascade and selectors specificity.
+ * Shares the same methodology of some popular methodologies like ITCSS, BEM, SMACSS and OOCSS.
+ * This approach is to ensure everyone who participates in the development of a website works with a single codebase and speaks the same language.
+ *
+ * # Separated CSS codebase
+ * Separate CSS codebase to several sections, this helps organized project files that can better deal with CSS specifics like global namespace, cascade and selectors specificity.
+ *
+ * 1. setting.css - contains custom properties (css variables), font-face, etc.
+ * 2. base.css - reset and/or normalize styles, box-sizing definition, etc.
+ * 3. layout.css - specific UI layouts.
+ * 4. component.css - specific UI components.
+ * 5. utitity.css - utilities and helper classes with ability to override anything.
+ *
+ *
+ * # Naming convention
+ * Highly useful, powerful, and simple naming convention that makes your front-end code easier to read and understand,
+ * easier to work with, easier to scale, more robust and explicit, and a lot more strict.
+ *
+ * 1. prefix - (u) utility, (l) layout, (c) component, and (js) javascript related classes.
+ * 2. classname - preferred class/object name.
+ * 3. modifier - preferred modifier name.
+ * 4. viewport - (sm) small, (md) medium, (lg) large, (xl) extra large.
+ * 5. int - integer (0, 1, 2, 3, 4, 5, 6, 7, 8, 9).
+ * 6. others - min, max, auto.
+ */
+
+
+@import "setting.css";
+@import "base.css";
+@import "layout.css";
+@import "component.css";
+@import "utility.css";
+
+
+/*
+ * NOTE:
+ * You can use the minified version of the styles above (e.g. setting.min.css).
+ * You can also use "all.css or all.min.css" instead of this file.
+ */

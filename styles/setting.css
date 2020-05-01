@@ -1,0 +1,92 @@
+
+/*--------------------------------------------------------------
+ font-face
+--------------------------------------------------------------*/
+@font-face {
+  font-family: "Noto Sans";
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/Noto-Sans.woff2") format("woff2"), url("../../assets/fonts/Noto-Sans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/fonts/Noto-Sans-Bold.woff2") format("woff2"), url("../../assets/fonts/Noto-Sans-Bold.woff") format("woff");
+}
+
+/*--------------------------------------------------------------
+ font-face Condensed
+--------------------------------------------------------------*/
+@font-face {
+  font-family: "Open Sans Condensed";
+  font-display: auto;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../assets/fonts/Open-Sans-Condensed-Light.woff2") format("woff2"), url("../../assets/fonts/Open-Sans-Condensed-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Open Sans Condensed";
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../assets/fonts/Open-Sans-Condensed-Bold.woff2") format("woff2"), url("../../assets/fonts/Open-Sans-Condensed-Bold.woff") format("woff");
+}
+
+/*--------------------------------------------------------------
+ Custom Properties (CSS Varialbles)
+--------------------------------------------------------------*/
+:root {
+  /* theme color */
+  --primary: #263238;
+  --secondary: #37474F;
+  --success: #4CAF50;
+  --info: #00BCD4;
+  --warning: #FF9800;
+  --danger: #F44336;
+  --light: #FAFAFA;
+  --dark: #212121;
+  /* color */
+  --red: #F44336;
+  --pink: #E91E63;
+  --purple: #9C27B0;
+  --deep-purple: #673AB7;
+  --indigo: #3F51B5;
+  --blue: #2196F3;
+  --light-blue: #03A9F4;
+  --cyan: #00BCD4;
+  --teal: #009688;
+  --green: #4CAF50;
+  --light-green: #8BC34A;
+  --lime: #CDDC39;
+  --yellow: #FFEB3B;
+  --amber: #FFC107;
+  --orange: #FF9800;
+  --deep-orange: #FF5722;
+  --brown: #795548;
+  --blue-grey: #607D8B;
+  --white: #FFFFFF;
+  --black: #000000;
+  /* grey */
+  --grey-50: #FAFAFA;
+  --grey-100: #F5F5F5;
+  --grey-200: #EEEEEE;
+  --grey-300: #E0E0E0;
+  --grey-400: #BDBDBD;
+  --grey-500: #9E9E9E;
+  --grey-600: #757575;
+  --grey-700: #616161;
+  --grey-800: #424242;
+  --grey-900: #212121;
+  /* Transition */
+  --transition: all 300ms ease-in-out 120ms;
+  /* font-family */
+  --font-family-sans-serif: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif-condensed: "Open Sans Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+/*# sourceMappingURL=setting.css.map */
