@@ -8713,7 +8713,11 @@
   background-attachment: fixed;
   background-position: 50% 50%;
 }
-
+@media (max-width: 430px) {
+  .u-background-img {
+    background: #263238;
+  }
+}
 /*--------------------------------------------------
   Overflow
 --------------------------------------------------*/
