@@ -8668,8 +8668,9 @@
   background-color: #000000;
 }
 .u-background-black02 {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
 }
+
 
 .u-background-grey-50 {
   background-color: #FAFAFA;
@@ -8716,11 +8717,7 @@
   background-attachment: fixed;
   background-position: 50% 50%;
 }
-@media (max-width: 430px) {
-  .u-background-img {
-    background: #263238;
-  }
-}
+
 /*--------------------------------------------------
   Overflow
 --------------------------------------------------*/
