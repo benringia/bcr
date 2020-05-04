@@ -232,7 +232,7 @@
 
 .c-button.is-info {
   color: #FAFAFA !important;
-  background-color: #00BCD4;
+  background-color: #008ecc;
 }
 
 /*--------------------------------------------------
@@ -439,13 +439,18 @@
 .c-site-nav-item a {
   display: block;
   padding: 0 10px;
-  color: #333;
+  color: #f5f5f7;
   font-size: 1.5rem;
   line-height: 40px;
   text-decoration: none;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+@media (max-width: 992px) {
+  .c-site-nav-item:not(:last-of-type) {
+    border-bottom: 1px solid #bdbdbd;
+  }
 }
 
 @media (min-width: 992px) {
@@ -457,7 +462,7 @@
   }
   .c-site-nav-item a:hover,
   .c-site-nav.is-active a {
-    background-color: #ffffff;
+    background-color: #008ecc;
     transition: all 0.2s linear;
   }
 }

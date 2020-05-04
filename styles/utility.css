@@ -8414,7 +8414,7 @@
 }
 
 .u-color-info {
-  color: #00BCD4;
+  color: #008ecc;
 }
 
 .u-color-warning {
@@ -8569,7 +8569,7 @@
 }
 
 .u-background-info {
-  background-color: #00BCD4;
+  background-color: #008ecc;
 }
 
 .u-background-warning {
@@ -8666,6 +8666,9 @@
 
 .u-background-black {
   background-color: #000000;
+}
+.u-background-black02 {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .u-background-grey-50 {
