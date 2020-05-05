@@ -3396,6 +3396,10 @@
 
 .l-site-header-branding {
   max-width: calc(100% - 50px);
+  transition: all 0.3s ease-in-out;
+}
+.l-site-header-branding:hover {
+  transform: scale(0.93);
 }
 
 .l-site-header-navigation {
@@ -3485,7 +3489,7 @@
 
 @media (min-width: 992px) {
   .l-site-atf {
-    height: calc(100vh - 125px);
+    height: calc(100vh - 75px);
     max-height: 1000px;
   }
 }

@@ -8773,5 +8773,10 @@
 .u-hover-fx-1:hover {
   transform: scale(1.1);
 }
-
+.icon {
+  transition: all 0.3s ease;
+}
+.c-button:hover .icon {
+  transform: scale(1.2);
+}
 /*# sourceMappingURL=utility.css.map */
