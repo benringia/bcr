@@ -1,0 +1,21 @@
+html {
+    background: #333;
+}
+h1,h2,h3 {
+    color: #ffffff;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.grid img {
+    border: 1px solid blue;
+    transition: all 0.2s ease-in-out;
+}
+.container {
+    margin: auto;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+}
