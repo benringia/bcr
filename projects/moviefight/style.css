@@ -1,0 +1,137 @@
+
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+.fluid {
+  width: 100%;
+}
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+.hero-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 30px 1.5rem;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+body {
+  min-height: 100vh;
+  background-color: #141414;
+  color: #e5e5e5 !important;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 20px;
+}
+
+.l-container.is-fluid {
+  max-width: 100% !important;
+}
+
+@media (min-width: 410px) {
+  .l-container {
+    max-width: 395px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+.hero.is-primary .title {
+  color: #e5e5e5;
+  text-align: center;
+}
+.hero.is-primary.is-bold {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+}
+.content h1,.content h4 {
+  color: #e5e5e5 !important;
+}
+@media(min-width: 768px) {
+  .media {
+    align-items: flex-start;
+      display: flex;
+      text-align: left;
+      height: 370px;
+      overflow: auto;
+  }
+}
+
+.notification.is-primary {
+  background-color: #63d471;
+  background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+  color: #fff;
+  
+}
+
+.notification.is-warning {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+  color: #fff;
+
+}
