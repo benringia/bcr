@@ -1,11 +1,3 @@
-// Moonshine
-// Scalable and Maintainable Architecture.
-//
-// Author:   Jack Ryan Oracoy
-// Website:  https://jackryanoracoy.github.io
-// Email:    jackryanoracoy@gmail.com
-// URL:      https://github.com/jackryanoracoy/moonshine
-// License:  https://github.com/jackryanoracoy/moonshine/blob/master/LICENSE.txt
 
 
 // IE support for "main"
@@ -38,6 +30,10 @@ $(document).ready(function($) {
   });
 });
 
+
+
+
+
 // Smooth scroll
 $(document).ready(function() {
   $("a").on('click', function(event) {
@@ -51,12 +47,13 @@ $(document).ready(function() {
 });
 
 // Toggle class on click
-$(document).ready(function($) {
-  $('.c-site-menu').click(function() {
-    $('.c-site-menu').stop().toggleClass('js-active');
-    $('.l-site-header').stop().toggleClass('js-menu-opened');
-    $('.l-site-header-navigation').stop().toggleClass('js-show');
-  });
+const siteMenu = document.querySelector('.c-site-menu')
+const siteHeader = document.querySelector('.l-site-header')
+const navigation = document.querySelector('.l-site-header-navigation')
+siteMenu.addEventListener('click',function() {
+siteMenu.classList.toggle('js-active');
+siteHeader.classList.toggle('js-menu-opened');
+navigation.classList.toggle('js-show')
 });
 
 // Detect if user is using TAB to navigate
@@ -89,7 +86,7 @@ $('.l-parallax-image').each(function() {
       var imgBottom = ((winBottom - imgY) * speed);
       // Max number of pixels until block disappear
       var imgTop = winH + parentH;
-      // Porcentage between start showing until disappearing
+      // Percentage between start showing until disappearing
       var imgPercent = ((imgBottom / imgTop) * 100) + (50 - (speed * 50));
     }
     img.css({
@@ -107,8 +104,7 @@ $('.l-parallax-image').each(function() {
   });
 });
 
-// Tabs
-$(document).ready(function() {
+  $(document).ready(function() {
 
 	$('.c-tab-link li').click(function() {
 		var tab_id = $(this).attr('data-tab');
