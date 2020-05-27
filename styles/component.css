@@ -460,12 +460,12 @@
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
-  .c-site-nav-item a:hover,
+}
+.c-site-nav-item a:hover,
   .c-site-nav.is-active a {
     background-color: #008ecc;
     transition: all 0.2s linear;
   }
-}
 
 /*--------------------------------------------------
   Site-title
