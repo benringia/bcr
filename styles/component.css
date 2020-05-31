@@ -766,6 +766,7 @@
   font-size: 15px;
   transition: 0.5s;
   font-weight: bold;
+  border-radius: 10px;
 }
 
 .active, .accordion:hover {
@@ -790,5 +791,9 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
+}
+
+.mar-rt10 {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=component.css.map */
