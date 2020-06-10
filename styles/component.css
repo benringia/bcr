@@ -840,8 +840,12 @@
 
 .panel {
 	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.3s ease-out;
+  overflow: hidden;
+  transition: max-height 0.1s;
+}
+.panel2 {
+	max-height: 0;
+  overflow: hidden;
 }
 
 .mar-rt10 {
@@ -849,6 +853,7 @@
 }
 button.accordion2 {
   border: 0;
+  cursor: pointer;
 }
 
 
