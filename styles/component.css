@@ -816,6 +816,10 @@
 	font-weight: bold;
 	border-radius: 10px;
 }
+.accordion.disabled {
+	background-color: gray;
+	pointer-events: none;
+}
 .accordion2 {
   transition: 0.2s;
 }
